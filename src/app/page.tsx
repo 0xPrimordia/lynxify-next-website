@@ -79,7 +79,7 @@ export default function Home() {
         <section id="token" className="token-section">
           <div className="container">
             <h2>Coming Soon: LYNX Token</h2>
-            <p className="section-intro">The native token powering the Lynxify ecosystem</p>
+            <p className="section-intro">The index token powering the Lynxify ecosystem</p>
             
             <div className="token-details">
               <div className="token-detail">
