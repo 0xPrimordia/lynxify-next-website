@@ -1,0 +1,168 @@
+// Mobile responsive styles
+
+// Small devices (phones, 576px and down)
+@media (max-width: 576px) {
+  header {
+    padding: 0.5rem 1rem;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+    .header-left {
+      .txt.hero {
+        font-size: 3rem;
+      }
+      
+      .slogan {
+        font-size: 1rem;
+        width: auto;
+        animation: none;
+        position: relative;
+        border-right: none;
+        white-space: normal;
+        display: block;
+        margin-top: 0.2rem;
+      }
+    }
+    
+    .header-nav {
+      flex-basis: 100%;
+      order: 3;
+      margin-top: 1rem;
+      
+      a {
+        font-size: 1.2rem;
+      }
+    }
+    
+    .launch-btn {
+      order: 4;
+      margin-top: 1rem;
+      width: 100%;
+      text-align: center;
+    }
+    
+    .mobile-menu-toggle {
+      order: 2;
+    }
+  }
+  
+  .hero-section {
+    padding: 60px 0;
+    
+    .container {
+      flex-direction: column;
+      gap: 30px;
+    }
+    
+    h2 {
+      font-size: 2rem;
+    }
+    
+    .features-grid {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  
+  .early-access-section {
+    padding: 60px 0;
+    
+    h2 {
+      font-size: 2.5rem;
+    }
+    
+    .cta-button-container .button-group {
+      flex-direction: column;
+      width: 100%;
+      
+      .primary-btn, .secondary-btn {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+  
+  .token-section {
+    padding: 60px 0;
+    
+    .token-details {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  }
+  
+  .roadmap-section {
+    .roadmap-timeline {
+      padding-left: 10px;
+      
+      .roadmap-item {
+        margin-bottom: 2rem;
+        
+        .roadmap-date {
+          width: 60px;
+          font-size: 1rem;
+        }
+        
+        .roadmap-content {
+          padding-left: 1rem;
+          
+          h3 {
+            font-size: 1.3rem;
+          }
+        }
+      }
+    }
+  }
+  
+  .team-section {
+    .team-grid {
+      flex-direction: column;
+      gap: 2rem;
+    }
+  }
+  
+  .section-separator {
+    width: 90%;
+  }
+}
+
+// Medium devices (tablets, 768px and down)
+@media (max-width: 768px) {
+  .dao-journey-content {
+    padding: 30px 15px;
+  }
+  
+  .dao-article-full {
+    .article-content {
+      img, video {
+        margin: 1.5rem 0 0.5rem;
+      }
+    }
+  }
+}
+
+// Fix for very small screens
+@media (max-width: 360px) {
+  header {
+    .header-left {
+      .txt.hero {
+        font-size: 2.5rem;
+      }
+      
+      .slogan {
+        font-size: 1rem;
+      }
+    }
+  }
+  
+  .hero-section h2,
+  .early-access-section h2,
+  .token-section h2,
+  .roadmap-section h2,
+  .team-section h2 {
+    font-size: 1.8rem;
+  }
+} 
