@@ -7,9 +7,8 @@ export default function Footer() {
         <div className="footer-logo">Lynxify</div>
         
         <div className="social-links">
-          <a href="https://twitter.com/lynxify" target="_blank" rel="noopener noreferrer">Twitter</a>
+          <a href="https://x.com/Lynxifyxyz" target="_blank" rel="noopener noreferrer">Twitter</a>
           <a href="https://discord.gg/GM5BfpPe2Y" target="_blank" rel="noopener noreferrer">Discord</a>
-          <a href="https://t.me/lynxify" target="_blank" rel="noopener noreferrer">Telegram</a>
           <a href='https://warpcast.com/~/channel/lynxify' target='_blank' rel="noopener noreferrer">Warpcast</a>
         </div>
         
