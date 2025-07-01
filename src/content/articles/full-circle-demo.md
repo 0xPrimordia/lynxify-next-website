@@ -6,7 +6,7 @@ excerpt: "A comprehensive demonstration of the complete workflow from HTS token 
 tags: ["HTS", "HCS", "DAO", "Agent", "Minting", "Governance", "Demo"]
 ---
 
-# Full Circle Demo of HTS Minting with HCS DAO Voting with Agent
+# Full Circle Demo of HTS Minting with HCS DAO Voting with Agents
 
 This comprehensive demo showcases the complete workflow of our governance system, from initial token minting using Hedera Token Service (HTS) through decentralized voting with Hedera Consensus Service (HCS) to final execution by our governance agent.
 
