@@ -26,7 +26,7 @@ The first step in our governance ecosystem involves minting LYNX tokens using He
 
 *Video demonstration of LYNX token minting process using Hedera Token Service.*
 
-The minting process demonstrates how we leverage HTS's native capabilities to mint tokens by depositing the required composition tokens in the cntract's treasury. The appropriate amount of Lynx is then sent to the minting user based on the ratio calculation.
+The minting process demonstrates how we leverage HTS's native capabilities to mint tokens by depositing the required composition tokens in the contract's treasury. The appropriate amount of Lynx is then sent to the minting user based on the ratio calculation.
 
 ## Lynx DAO Voting with HCS
 
