@@ -100,4 +100,8 @@ This end-to-end workflow represents a new paradigm in decentralized governance, 
   *Frontend interface for the LYNX DAO governance and token management system*
 
 - **Agents Container Repository**: [https://github.com/0xPrimordia/LynxAgent](https://github.com/0xPrimordia/LynxAgent)  
-  *Backend agents handling governance, rebalancing, and sentinel operations for the LYNX ecosystem* 
+  *Backend agents handling governance, rebalancing, and sentinel operations for the LYNX ecosystem*
+
+### Smart Contract
+- **LYNX Minting Contract**: [0.0.6216949](https://hashscan.io/testnet/contract/0.0.6216949?pr=1&pa=1&pf=1&kf=0.0.1183558&ps=1)  
+  *Smart contract handling LYNX token minting and treasury management on Hedera testnet* 
