@@ -40,13 +40,21 @@ export default async function DAOJourney() {
               <div className="roadmap-item active">
                 <div className="roadmap-date">Q1 2025</div>
                 <div className="roadmap-milestone">
-                  <h3>Development</h3>
-                  <p>Frontend implementation, smart contract audits, testnet deployment</p>
+                  <h3>Frontend & Contract Development</h3>
+                  <p>Frontend implementation and minting contract development</p>
+                </div>
+              </div>
+              
+              <div className="roadmap-item completed">
+                <div className="roadmap-date">Q2 2025</div>
+                <div className="roadmap-milestone">
+                  <h3>HCS Agents & AI Development</h3>
+                  <p>Governance agents, rebalancing systems, and AI-powered monitoring</p>
                 </div>
               </div>
               
               <div className="roadmap-item">
-                <div className="roadmap-date">Q2 2025</div>
+                <div className="roadmap-date">Q3 2025</div>
                 <div className="roadmap-milestone">
                   <h3>Testing & Refinement</h3>
                   <p>Community beta testing, security audits, UI/UX improvements</p>
@@ -54,10 +62,10 @@ export default async function DAOJourney() {
               </div>
               
               <div className="roadmap-item">
-                <div className="roadmap-date">Q3 2025</div>
+                <div className="roadmap-date">Q4 2025</div>
                 <div className="roadmap-milestone">
                   <h3>Launch</h3>
-                  <p>Mainnet deployment, governance activation, community onboarding</p>
+                  <p>Token launch, governance activation, community onboarding</p>
                 </div>
               </div>
             </div>

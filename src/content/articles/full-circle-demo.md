@@ -1,6 +1,6 @@
 ---
-title: "Full Circle Demo of HTS Minting with HCS DAO Voting with Agent"
-date: "2025-01-28"
+title: "Full Circle Demo of HTS Minting with HCS DAO Voting with Agents"
+date: "2025-07-01"
 author: "Kevin Compton"
 excerpt: "A comprehensive demonstration of the complete workflow from HTS token minting through HCS DAO voting to governance agent execution."
 tags: ["HTS", "HCS", "DAO", "Agent", "Minting", "Governance", "Demo"]

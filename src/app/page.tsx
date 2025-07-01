@@ -111,33 +111,40 @@ export default function Home() {
               <div className="roadmap-item">
                 <div className="roadmap-date">Q3 2024</div>
                 <div className="roadmap-content">
-                  <h3>Platform Launch</h3>
-                  <p>Initial DEX release with core trading features</p>
+                  <h3>Research & Planning</h3>
+                  <p>Governance model research, community surveys, technical architecture planning</p>
                 </div>
               </div>
               <div className="roadmap-item">
                 <div className="roadmap-date">Q4 2024</div>
                 <div className="roadmap-content">
-                  <h3>Advanced Features</h3>
-                  <p>Stop-loss, take-profit, and limit orders</p>
+                  <h3>Design & Prototyping</h3>
+                  <p>UI/UX design, smart contract development, community feedback sessions</p>
                 </div>
               </div>
-              <div className="roadmap-item incomplete">
+              <div className="roadmap-item">
                 <div className="roadmap-date">Q1 2025</div>
                 <div className="roadmap-content">
-                  <h3>DAO Formation</h3>
-                  <p>Onboarding for community governance</p>
+                  <h3>Frontend & Contract Development</h3>
+                  <p>Frontend implementation and minting contract development</p>
+                </div>
+              </div>
+              <div className="roadmap-item">
+                <div className="roadmap-date">Q2 2025</div>
+                <div className="roadmap-content">
+                  <h3>HCS Agents & AI Development</h3>
+                  <p>Governance agents, rebalancing systems, and AI-powered monitoring</p>
                 </div>
               </div>
               <div className="roadmap-item incomplete">
-                <div className="roadmap-date">Q2 2025</div>
+                <div className="roadmap-date">Q3 2025</div>
                 <div className="roadmap-content">
                   <h3>Testing and Refinement</h3>
                   <p>Community beta testing, security audits, UI/UX improvements</p>
                 </div>
               </div>
               <div className="roadmap-item incomplete">
-                <div className="roadmap-date">Q3 2025</div>
+                <div className="roadmap-date">Q4 2025</div>
                 <div className="roadmap-content">
                   <h3>Token Launch</h3>
                   <p>LYNX token release and staking program</p>

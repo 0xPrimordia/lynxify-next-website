@@ -6,7 +6,6 @@
 // Header styles matching the original
 header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
   background-color: var(--dark-bg);
@@ -64,6 +63,8 @@ header {
 .header-nav {
   display: flex;
   gap: 2rem;
+  flex: 1;
+  justify-content: center;
   
   a {
     color: var(--text-color);
@@ -77,20 +78,7 @@ header {
   }
 }
 
-.launch-btn {
-  padding: 0.75rem 1.5rem;
-  background-color: var(--primary-color);
-  color: white;
-  border-radius: 4px;
-  font-family: var(--font-vt323);
-  font-size: 1.2rem;
-  transition: all 0.2s ease;
-  
-  &:hover {
-    box-shadow: 0 0 15px rgba(1, 89, 224, 0.8);
-    transform: translateY(-2px);
-  }
-}
+
 
 // Hero section with dark background
 .hero-section {

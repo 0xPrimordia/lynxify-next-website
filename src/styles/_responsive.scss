@@ -31,17 +31,11 @@
       flex-basis: 100%;
       order: 3;
       margin-top: 1rem;
+      justify-content: flex-start;
       
       a {
         font-size: 1.2rem;
       }
-    }
-    
-    .launch-btn {
-      order: 4;
-      margin-top: 1rem;
-      width: 100%;
-      text-align: center;
     }
     
     .mobile-menu-toggle {
