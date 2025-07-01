@@ -69,10 +69,10 @@ The governance agent serves as the bridge between democratic consensus and pract
 Our governance ecosystem is powered by a multi-agent architecture that combines traditional automation with advanced AI capabilities. Each agent serves a specific role in maintaining and operating the decentralized system:
 
 ### Governance Agent (Orchestrator)
-The governance agent serves as the central orchestrator of our DAO system. This dummy agent handles interactions between various components and executes changes to the smart contract based on community decisions. It monitors the HCS topic for voting outcomes and automatically implements approved proposals, ensuring seamless translation from democratic consensus to on-chain execution.
+The governance agent serves as the central orchestrator of our DAO system. This dummy agent handles interactions between various components and executes changes to the smart contract based on community decisions. It monitors the HCS topic for voting outcomes and automatically implements approved parameter values, ensuring seamless translation from democratic consensus to on-chain execution.
 
 ### Rebalancer Agent (Portfolio Management)
-The rebalancer agent maintains optimal portfolio allocations by calculating required trades to reach target distributions. This dummy agent analyzes the current treasury composition and executes necessary swaps on the contract treasury to maintain desired asset ratios. It ensures the portfolio remains balanced according to community-defined parameters.
+The rebalancer agent maintains DAO determined portfolio allocations by calculating required trades to reach target distributions. This dummy agent analyzes the current treasury composition and executes necessary swaps on the contract treasury to maintain desired asset ratios. It ensures the portfolio remains balanced according to community-defined parameters.
 
 ### Sentinel Agent (AI-Powered Monitoring)
 The sentinel agent represents the AI-powered component of our system, providing intelligent market monitoring and analysis. It continuously monitors token prices through multiple data sources including SaucerSwap and Hedera APIs, detecting when the portfolio deviates from target allocations. The agent utilizes a RAG (Retrieval-Augmented Generation) system to analyze current market conditions and generate actionable insights, enabling proactive portfolio management decisions.
