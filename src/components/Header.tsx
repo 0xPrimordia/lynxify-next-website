@@ -31,15 +31,6 @@ export default function Header() {
         <a href="/#team" onClick={() => setMenuOpen(false)}>Team</a>
         <a href="/dao-journey" onClick={() => setMenuOpen(false)}>DAO Journey</a>
       </nav>
-      
-      <a 
-        href="https://app.lynxify.xyz" 
-        target="_blank" 
-        rel="noopener noreferrer" 
-        className="launch-btn"
-      >
-        Launch App
-      </a>
     </header>
   );
 } 
