@@ -25,11 +25,22 @@ export default function Header() {
       </div>
       
       <nav className={`header-nav ${menuOpen ? 'open' : ''}`}>
-        <a href="/#early-access" onClick={() => setMenuOpen(false)}>Early Access</a>
-        <a href="/#token" onClick={() => setMenuOpen(false)}>Token</a>
-        <a href="/#roadmap" onClick={() => setMenuOpen(false)}>Roadmap</a>
-        <a href="/#team" onClick={() => setMenuOpen(false)}>Team</a>
-        <a href="/dao-journey" onClick={() => setMenuOpen(false)}>DAO Journey</a>
+        <div className="nav-center">
+          <a href="/#early-access" onClick={() => setMenuOpen(false)}>Early Access</a>
+          <a href="/#roadmap" onClick={() => setMenuOpen(false)}>Roadmap</a>
+          <a href="/#team" onClick={() => setMenuOpen(false)}>Team</a>
+          <a href="/dao-journey" onClick={() => setMenuOpen(false)}>DAO Journey</a>
+        </div>
+        <a 
+          href="https://token.lynxify.xyz/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          onClick={() => setMenuOpen(false)}
+          className="token-link"
+        >
+          <img src="/favicon-32x32.png" alt="LYNX Token" width="23" height="23" />
+          Token App
+        </a>
       </nav>
     </header>
   );
