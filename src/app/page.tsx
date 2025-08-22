@@ -86,18 +86,14 @@ export default function Home() {
                   <p>LYNX token release and minting platform</p>
                 </div>
               </div>
-              <div className="roadmap-item">
+              <div className="roadmap-item incomplete">
                 <div className="roadmap-date">Q4 2025</div>
                 <div className="roadmap-content">
                   <h3>Enhanced Features</h3>
-                  <ul>
-                    <li>Minting Agent - mint lynx with only HBAR</li>
-                    <li>DAO staking and voting</li>
-                    <li>DAO Ready Contract</li>
-                  </ul>
+                  <p>Minting Agent - mint lynx with only HBAR, DAO staking and voting, DAO Ready Contract</p>
                 </div>
               </div>
-              <div className="roadmap-item">
+              <div className="roadmap-item incomplete">
                 <div className="roadmap-date">Q1 2026</div>
                 <div className="roadmap-content">
                   <h3>Yield & Staking</h3>
