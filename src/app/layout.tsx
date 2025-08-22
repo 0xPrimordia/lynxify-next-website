@@ -23,8 +23,8 @@ const inriaSerif = Inria_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "Lynxify | Smart Trading",
-  description: "Unlock the power of automated trading with Lynxify's advanced DEX. Set your strategies, trade effortlessly, and maximize your crypto potential.",
+  title: "Lynxify | LYNX Token - Diversified Hedera Index",
+  description: "Mint LYNX tokens by depositing a diversified basket of premium Hedera assets. Gain exposure to HBAR, WBTC, SAUCE, USDC, HBARX, WETH, and XSAUCE with a single token.",
   icons: {
     icon: [
       { url: '/favicon.ico' },
@@ -36,22 +36,22 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: "Lynxify | Smart Trading",
-    description: "Unlock the power of automated trading with Lynxify's advanced DEX. Set your strategies, trade effortlessly, and maximize your crypto potential.",
+    title: "Lynxify | LYNX Token - Diversified Hedera Index",
+    description: "Mint LYNX tokens by depositing a diversified basket of premium Hedera assets. Gain exposure to HBAR, WBTC, SAUCE, USDC, HBARX, WETH, and XSAUCE with a single token.",
     url: "https://lynxify.xyz/",
     images: [
       {
         url: '/share.jpg',
         width: 1200,
         height: 630,
-        alt: 'Your site share image',
+        alt: 'LYNX Token - Diversified Hedera Index',
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Lynxify | Smart Trading",
-    description: "Unlock the power of automated trading with Lynxify's advanced DEX. Set your strategies, trade effortlessly, and maximize your crypto potential.",
+    title: "Lynxify | LYNX Token - Diversified Hedera Index",
+    description: "Mint LYNX tokens by depositing a diversified basket of premium Hedera assets. Gain exposure to HBAR, WBTC, SAUCE, USDC, HBARX, WETH, and XSAUCE with a single token.",
     images: ['/share.png'],
   },
 };
