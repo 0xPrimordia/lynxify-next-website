@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     url: "https://lynxify.xyz/",
     images: [
       {
-        url: '/share.jpg',
+        url: '/share.png',
         width: 1200,
         height: 630,
         alt: 'LYNX Token - Diversified Hedera Index',
