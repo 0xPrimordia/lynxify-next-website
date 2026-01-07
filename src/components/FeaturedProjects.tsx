@@ -47,11 +47,11 @@ export default function FeaturedProjects() {
       title: "LYNX Token",
       bullets: [
         "Diversified token basket",
-        "Hedera mainnet native",
-        "ETF-like exposure",
-        "Multiple underlying assets"
+        "Passive HBAR staking APY",
+        "LP yield generation",
+        "Auto-compounding rewards"
       ],
-      description: "A diversified token basket on Hedera mainnet that provides you exposure to multiple underlying assets, like an ETF for Hedera-compatible tokens.",
+      description: "A diversified index token on Hedera with built-in yield. Treasury assets are staked and deployed to liquidity pools, with rewards auto-compounded to increase LYNX value over time.",
       logo: "/lynx-logo-lg.png",
       logoAlt: "LYNX Token",
       link: "https://token.lynxify.xyz/"
