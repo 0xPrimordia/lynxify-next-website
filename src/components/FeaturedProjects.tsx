@@ -52,7 +52,7 @@ export default function FeaturedProjects() {
         "Multiple underlying assets"
       ],
       description: "A diversified token basket on Hedera mainnet that provides you exposure to multiple underlying assets, like an ETF for Hedera-compatible tokens.",
-      logo: "/android-chrome-192x192.png",
+      logo: "/lynx-logo-lg.png",
       logoAlt: "LYNX Token",
       link: "https://token.lynxify.xyz/"
     },
