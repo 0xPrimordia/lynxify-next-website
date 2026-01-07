@@ -1,6 +1,7 @@
 import React from 'react';
 import type { Metadata } from "next";
-import { Poppins, VT323, Inria_Serif } from "next/font/google";
+import { Poppins, VT323, Inria_Serif, Lexend } from "next/font/google";
+import '@/styles/globals.css';
 import '@/styles/main.scss';
 import '@/styles/footer.scss';
 
@@ -20,6 +21,12 @@ const inriaSerif = Inria_Serif({
   weight: '400',
   subsets: ['latin'],
   variable: '--font-inria',
+});
+
+const lexend = Lexend({
+  weight: ['400', '700'],
+  subsets: ['latin'],
+  variable: '--font-lexend',
 });
 
 export const metadata: Metadata = {
@@ -63,7 +70,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable} ${inriaSerif.variable} ${vt323.variable}`}>
+      <body className={`${poppins.variable} ${inriaSerif.variable} ${vt323.variable} ${lexend.variable}`}>
         {children}
       </body>
     </html>

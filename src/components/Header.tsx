@@ -14,7 +14,6 @@ export default function Header() {
       <div className="header-left">
         <Link href="/" className="logo-link">
           <div className="txt hero">Lynxify</div>
-          <span className="slogan">Smart Trading, Smarter Gains</span>
         </Link>
       </div>
       
@@ -26,20 +25,16 @@ export default function Header() {
       
       <nav className={`header-nav ${menuOpen ? 'open' : ''}`}>
         <div className="nav-center">
-          <a href="/#early-access" onClick={() => setMenuOpen(false)}>Early Access</a>
-          <a href="/#roadmap" onClick={() => setMenuOpen(false)}>Roadmap</a>
+          <a href="/#projects" onClick={() => setMenuOpen(false)}>Projects</a>
+          <a href="/#services" onClick={() => setMenuOpen(false)}>Services</a>
           <a href="/#team" onClick={() => setMenuOpen(false)}>Team</a>
-          <a href="/dao-journey" onClick={() => setMenuOpen(false)}>DAO Journey</a>
         </div>
         <a 
-          href="https://token.lynxify.xyz/" 
-          target="_blank" 
-          rel="noopener noreferrer"
+          href="/#contact"
           onClick={() => setMenuOpen(false)}
-          className="token-link"
+          className="btn-gradient contact-btn"
         >
-          <img src="/favicon-32x32.png" alt="LYNX Token" width="23" height="23" />
-          Token App
+          Contact Us
         </a>
       </nav>
     </header>
