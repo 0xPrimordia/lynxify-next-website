@@ -26,7 +26,7 @@ export default function Home() {
               <span className="hero-headline-purple">You Can Trust</span>
             </h1>
             <p className="hero-description">
-              We're building the decentralized future with verifiable solutions. No more permission loop holes or black boxes. Just delivery.
+            Our Product Development is focused around the philosophy of trust through verification. Don't trust, verify.
             </p>
             <div className="hero-buttons">
               <a href="#contact" className="btn-gradient">Contact Us</a>
