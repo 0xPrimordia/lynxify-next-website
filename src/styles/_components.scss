@@ -566,7 +566,7 @@ header {
     display: block;
     height: 3px;
     width: 100%;
-    background-color: var(--primary-color);
+    background: linear-gradient(90deg, #A949F6 0%, #5788FB 100%);
     border-radius: 3px;
     transition: all 0.3s ease;
   }
@@ -575,6 +575,12 @@ header {
 @media (max-width: 768px) {
   header {
     position: relative;
+  }
+  
+  .header-left {
+    .txt.hero {
+      font-size: 1.35rem;
+    }
   }
   
   .mobile-menu-toggle {
@@ -595,6 +601,7 @@ header {
     justify-content: center;
     transition: right 0.3s ease;
     z-index: 100;
+    gap: 0.5rem;
     
     &.open {
       display: flex;
@@ -608,13 +615,13 @@ header {
       align-items: center;
     }
     
-    a {
+    a:not(.btn-gradient) {
       margin: 15px 0;
-      font-size: 1.5rem;
-      
-      &.token-link {
-        margin-top: 30px;
-      }
+      font-size: 1.25rem;
+    }
+    
+    .btn-gradient {
+      margin-top: 1.5rem;
     }
   }
   
