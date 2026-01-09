@@ -461,10 +461,11 @@ header {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding: 60px 0 30px;
   text-align: center;
+  font-family: var(--font-lexend);
   
   .footer-logo {
     font-family: var(--font-lexend);
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: 400;
     background: linear-gradient(90deg, #A949F6 0%, #5788FB 100%);
     -webkit-background-clip: text;
@@ -478,6 +479,7 @@ header {
     justify-content: center;
     gap: 30px;
     margin: 1.5rem 0;
+    font-family: var(--font-lexend);
     
     a {
       color: rgba(255, 255, 255, 0.7);
@@ -490,6 +492,7 @@ header {
   }
   
   .copyright {
+    font-family: var(--font-lexend);
     color: rgba(255, 255, 255, 0.5);
     margin-top: 2rem;
     font-size: 0.9rem;
@@ -575,12 +578,6 @@ header {
 @media (max-width: 768px) {
   header {
     position: relative;
-  }
-  
-  .header-left {
-    .txt.hero {
-      font-size: 1.35rem;
-    }
   }
   
   .mobile-menu-toggle {

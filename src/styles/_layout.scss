@@ -601,8 +601,8 @@ section {
   
   .footer-logo {
     font-family: var(--font-lexend);
-    font-size: 3rem;
-    font-weight: 700;
+    font-size: 1.75rem;
+    font-weight: 400;
     background: linear-gradient(90deg, #A949F6 0%, #5788FB 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -829,7 +829,7 @@ section {
     padding: 60px 0 30px;
     
     .footer-logo {
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
     
     .social-links {
