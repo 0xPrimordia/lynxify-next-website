@@ -31,13 +31,13 @@ function AchievementCard({ title, logo, logoAlt, placement }: AchievementCardPro
 
 export default function Achievements() {
   const achievements = [
-    // Temporarily hidden until announced
-    // {
-    //   title: "Hello Future Ascension Hackathon",
-    //   logo: "/hashgraph.png",
-    //   logoAlt: "Hedera Hashgraph",
-    //   placement: "1st Place - AI & Agents"
-    // },
+    
+    {
+       title: "Hello Future Ascension Hackathon",
+       logo: "/hashgraph.png",
+       logoAlt: "Hedera Hashgraph",
+       placement: "1st Place - AI & Agents"
+    },
     {
       title: "Hello Future Origins Hackathon",
       logo: "/hashgraph.png",
