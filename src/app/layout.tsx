@@ -30,8 +30,8 @@ const lexend = Lexend({
 });
 
 export const metadata: Metadata = {
-  title: "Lynxify | LYNX Token - Diversified Hedera Index",
-  description: "Mint LYNX tokens by depositing a diversified basket of premium Hedera assets. Gain exposure to HBAR, WBTC, SAUCE, USDC, HBARX, WETH, and XSAUCE with a single token.",
+  title: "Lynxify | Intuitive Innovation You Can Trust",
+  description: "Award-winning Web3 development studio specializing in DeFi, AI agents, and blockchain infrastructure. Building trustworthy solutions on Hedera and beyond.",
   icons: {
     icon: [
       { url: '/favicon.svg', type: 'image/svg+xml' },
@@ -44,22 +44,22 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: "Lynxify | LYNX Token - Diversified Hedera Index",
-    description: "Mint LYNX tokens by depositing a diversified basket of premium Hedera assets. Gain exposure to HBAR, WBTC, SAUCE, USDC, HBARX, WETH, and XSAUCE with a single token.",
+    title: "Lynxify | Intuitive Innovation You Can Trust",
+    description: "Award-winning Web3 development studio specializing in DeFi, AI agents, and blockchain infrastructure. Building trustworthy solutions on Hedera and beyond.",
     url: "https://lynxify.xyz/",
     images: [
       {
         url: '/share.png',
         width: 1200,
         height: 630,
-        alt: 'LYNX Token - Diversified Hedera Index',
+        alt: 'Lynxify - Intuitive Innovation You Can Trust',
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Lynxify | LYNX Token - Diversified Hedera Index",
-    description: "Mint LYNX tokens by depositing a diversified basket of premium Hedera assets. Gain exposure to HBAR, WBTC, SAUCE, USDC, HBARX, WETH, and XSAUCE with a single token.",
+    title: "Lynxify | Intuitive Innovation You Can Trust",
+    description: "Award-winning Web3 development studio specializing in DeFi, AI agents, and blockchain infrastructure. Building trustworthy solutions on Hedera and beyond.",
     images: ['/share.png'],
   },
 };
