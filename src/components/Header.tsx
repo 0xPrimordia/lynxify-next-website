@@ -27,6 +27,7 @@ export default function Header() {
         <div className="nav-center">
           <a href="/#projects" onClick={() => setMenuOpen(false)}>Projects</a>
           <a href="/#services" onClick={() => setMenuOpen(false)}>Services</a>
+          <Link href="/roadmap" onClick={() => setMenuOpen(false)}>Roadmap</Link>
           <a href="/#team" onClick={() => setMenuOpen(false)}>Team</a>
         </div>
         <a 
