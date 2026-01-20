@@ -105,8 +105,8 @@ const pastTimeline: TimelineItem[] = [
 const futureTimeline: TimelineItem[] = [
   {
     date: "January 2025",
-    title: "HBAR Purchasing of LYNX",
-    description: "Users can purchase LYNX directly with just HBAR",
+    title: "HBAR Agentic LYNX Minting",
+    description: "Users swap HBAR for LYNX at the current mint cost, then the agent mints in the backend in daily batches replenishing the buffer account.",
     completed: false
   },
   {
