@@ -104,27 +104,108 @@ const pastTimeline: TimelineItem[] = [
 
 const futureTimeline: TimelineItem[] = [
   {
-    date: "Q1 2025",
-    title: "DAO Dashboard Development",
-    description: "Frontend implementation and governance contract development",
+    date: "January 2025",
+    title: "HBAR Purchasing of LYNX",
+    description: "Users can purchase LYNX directly with just HBAR",
     completed: false
   },
   {
-    date: "Q2 2025",
-    title: "HCS Agents & AI Development",
-    description: "Governance agents, rebalancing systems, and AI-powered monitoring",
+    date: "February 2025",
+    title: "LYNX List on KYRNG",
+    description: "LYNX payment integration (USDC or HBAR) instead of KYRNG token",
     completed: false
   },
   {
-    date: "Q3 2025",
-    title: "Testing & Refinement",
-    description: "Community beta testing, security audits, UI/UX improvements",
+    date: "February 2025",
+    title: "LYNX APY Tracking",
+    description: "Graph the APY of LYNX over time",
     completed: false
   },
   {
-    date: "Q4 2025",
-    title: "Full Launch",
-    description: "Token governance activation and community onboarding",
+    date: "February 2025",
+    title: "Performance Analytics",
+    description: "Compare LYNX performance vs individual composition assets, with future outlook based on historical data",
+    completed: false
+  },
+  {
+    date: "March 2025",
+    title: "DAO Controls",
+    description: "Implement governance controls for the LYNX ecosystem",
+    completed: false
+  },
+  {
+    date: "March 2025",
+    title: "DOVU Integration",
+    description: "Add DOVU to composition with staking enabled",
+    completed: false
+  },
+  {
+    date: "April 2025",
+    title: "HTC & Default LP Assets",
+    description: "Support for HTC and default LP assets",
+    completed: false
+  },
+  {
+    date: "April 2025",
+    title: "USDC Staking",
+    description: "Add USDC staking (may require bridging another liquid token). All tokens will have staking when complete",
+    completed: false
+  },
+  {
+    date: "May 2025",
+    title: "DAO Composition Controls",
+    description: "Finalize DAO controls for composition between staking and LP's",
+    completed: false
+  },
+  {
+    date: "May 2025",
+    title: "KYRNG Hackathon",
+    description: "Host a hackathon through KYRNG platform",
+    completed: false
+  },
+  {
+    date: "June 2025",
+    title: "Treasury Loans",
+    description: "Enable loans through LYNX treasury",
+    completed: false
+  },
+  {
+    date: "June 2025",
+    title: "Security Audits",
+    description: "Complete audits on LYNX, KYRNG, and stETH.h",
+    completed: false
+  }
+];
+
+const stretchGoals: TimelineItem[] = [
+  {
+    date: "Future",
+    title: "KYRNG Audit Process",
+    description: "Audit contracts and run auth signer process to update contracts based on findings",
+    completed: false
+  },
+  {
+    date: "Future",
+    title: "KYRNG Open Source Agents",
+    description: "User-updatable agents that review contracts alongside users",
+    completed: false
+  },
+  {
+    date: "Future",
+    title: "MINX/MYNX/MANX",
+    description: "Meme coin versions of LYNX - faster deployment using existing LYNX contracts",
+    completed: false
+  },
+  {
+    date: "Future",
+    title: "SLYNX",
+    description: "Stable coin version of LYNX using existing contract infrastructure",
+    completed: false
+  },
+  {
+    date: "Future",
+    title: "Liquidity-Based Rebalancing",
+    description: "Advanced rebalancing based on liquidity metrics",
     completed: false
   }
 ];
@@ -204,6 +285,23 @@ export default function Roadmap() {
             
             <div className="timeline-container">
               {futureTimeline.map((item, index) => (
+                <TimelineItem key={index} item={item} index={index} />
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="timeline-section stretch">
+          <div className="container">
+            <div className="timeline-header">
+              <h2 className="section-title">Stretch Goals</h2>
+              <p className="section-subtitle">
+                Long-term vision and experimental initiatives
+              </p>
+            </div>
+            
+            <div className="timeline-container">
+              {stretchGoals.map((item, index) => (
                 <TimelineItem key={index} item={item} index={index} />
               ))}
             </div>

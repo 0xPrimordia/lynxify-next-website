@@ -91,6 +91,27 @@
     }
   }
   
+  &.stretch {
+    padding-top: 20px;
+    
+    .section-title {
+      color: #8A919E;
+    }
+    
+    .marker-dot.outlined {
+      border-color: #444;
+      border-style: dashed;
+    }
+    
+    .timeline-content {
+      opacity: 0.6;
+    }
+    
+    .timeline-date {
+      color: #666;
+    }
+  }
+  
   .container {
     max-width: 700px;
     margin: 0 auto;
