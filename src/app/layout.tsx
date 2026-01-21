@@ -4,6 +4,7 @@ import { Poppins, VT323, Inria_Serif, Lexend } from "next/font/google";
 import '@/styles/globals.css';
 import '@/styles/main.scss';
 import '@/styles/footer.scss';
+import { Analytics } from "@vercel/analytics/next"
 
 const poppins = Poppins({ 
   weight: ['500'],
