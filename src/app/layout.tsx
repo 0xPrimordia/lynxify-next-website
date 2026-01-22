@@ -74,6 +74,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${poppins.variable} ${inriaSerif.variable} ${vt323.variable} ${lexend.variable}`}>
         {children}
+        <Analytics />
       </body>
     </html>
   );
