@@ -14,81 +14,81 @@ interface TimelineItem {
 
 const pastTimeline: TimelineItem[] = [
   {
-    date: "March 2024",
+    date: "March 2025",
     title: "Product Validation",
     description: "ETH Denver Hackathon 2nd Place Victory (AI Track)",
     completed: true,
     highlight: true
   },
   {
-    date: "March – August 2024",
+    date: "March – August 2025",
     title: "Built LYNX Infrastructure",
     description: "Developed core infrastructure and treasury systems",
     completed: true
   },
   {
-    date: "August 2024",
+    date: "August 2025",
     title: "LYNX Early Access Launch",
     description: "Launched with the first composition",
     completed: true
   },
   {
-    date: "August 2024",
+    date: "August 2025",
     title: "SaucerSwap LP V1",
     description: "LYNX launches on SaucerSwap LP V1",
     completed: true
   },
   {
-    date: "September 2024",
+    date: "September 2025",
     title: "Hedera Hello Future: Origins Hackathon",
     description: "3rd Place - Legacy Builders Track. Started building DAO dashboard (McDuck)",
     completed: true,
     highlight: true
   },
   {
-    date: "September 2024",
+    date: "September 2025",
     title: "HBAR Staking Integration",
     description: "LYNX adds its first staking access with HBAR",
     completed: true
   },
   {
-    date: "September 2024",
+    date: "September 2025",
     title: "Rewards System",
     description: "LYNX Rewards now feed back into LYNX's value",
     completed: true
   },
   {
-    date: "October 2024",
+    date: "October 2025",
     title: "KYRNG Launch",
     description: "Users can register as auth signers for LYNX and other projects",
     completed: true
   },
   {
-    date: "October – November 2024",
+    date: "October – November 2025",
     title: "KYRNG Dashboard",
     description: "Dashboard allows projects to post contracts to lists for review",
     completed: true
   },
   {
-    date: "November 2024",
+    date: "November 2025",
     title: "LP Infrastructure",
     description: "Added LP infrastructure capabilities",
     completed: true
   },
   {
-    date: "December 2024",
+    date: "December 2025",
     title: "SaucerSwap LP Expansion",
     description: "Added wBTC, USDC, HBAR to SaucerSwap LP's",
     completed: true
   },
   {
-    date: "December 2024",
+    date: "December 2025",
     title: "stETH.H Bridge",
     description: "Bridged Lido liquid staked ETH to Hedera for composition",
     completed: true
   },
   {
-    date: "December 2024",
+    date: "December 2025",
     title: "Community Bridge",
     description: "Deployed bridge for community to create their own stETH.h",
     completed: true
