@@ -104,73 +104,73 @@ const pastTimeline: TimelineItem[] = [
 
 const futureTimeline: TimelineItem[] = [
   {
-    date: "January 2025",
+    date: "January 2026",
     title: "HBAR Agentic LYNX Minting",
     description: "Users swap HBAR for LYNX at the current mint cost, then the agent mints in the backend in daily batches replenishing the buffer account.",
     completed: false
   },
   {
-    date: "February 2025",
+    date: "February 2026",
     title: "LYNX List on KYRNG",
     description: "LYNX payment integration (USDC or HBAR) instead of KYRNG token",
     completed: false
   },
   {
-    date: "February 2025",
+    date: "February 2026",
     title: "LYNX APY Tracking",
     description: "Graph the APY of LYNX over time",
     completed: false
   },
   {
-    date: "February 2025",
+    date: "February 2026",
     title: "Performance Analytics",
     description: "Compare LYNX performance vs individual composition assets, with future outlook based on historical data",
     completed: false
   },
   {
-    date: "March 2025",
+    date: "March 2026",
     title: "DAO Controls",
     description: "Implement governance controls for the LYNX ecosystem",
     completed: false
   },
   {
-    date: "March 2025",
+    date: "March 2026",
     title: "DOVU Integration",
     description: "Add DOVU to composition with staking enabled",
     completed: false
   },
   {
-    date: "April 2025",
+    date: "April 2026",
     title: "HTC & Default LP Assets",
     description: "Support for HTC and default LP assets",
     completed: false
   },
   {
-    date: "April 2025",
+    date: "April 2026",
     title: "USDC Staking",
     description: "Add USDC staking (may require bridging another liquid token). All tokens will have staking when complete",
     completed: false
   },
   {
-    date: "May 2025",
+    date: "May 2026",
     title: "DAO Composition Controls",
     description: "Finalize DAO controls for composition between staking and LP's",
     completed: false
   },
   {
-    date: "May 2025",
+    date: "May 2026",
     title: "KYRNG Hackathon",
     description: "Host a hackathon through KYRNG platform",
     completed: false
   },
   {
-    date: "June 2025",
+    date: "June 2026",
     title: "Treasury Loans",
     description: "Enable loans through LYNX treasury",
     completed: false
   },
   {
-    date: "June 2025",
+    date: "June 2026",
     title: "Security Audits",
     description: "Complete audits on LYNX, KYRNG, and stETH.h",
     completed: false
