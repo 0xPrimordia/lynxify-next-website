@@ -7,9 +7,10 @@ interface AchievementCardProps {
   logo: string;
   logoAlt: string;
   placement: string;
+  link?: string;
 }
 
-function AchievementCard({ title, logo, logoAlt, placement }: AchievementCardProps) {
+function AchievementCard({ title, logo, logoAlt, placement, link }: AchievementCardProps) {
   return (
     <div className="relative rounded-2xl border border-white/30 bg-black/50 p-6 h-full shadow-[inset_0_0_0_10px_rgba(15,15,15,1)] flex flex-col">
       <GlowingEffect
@@ -24,6 +25,11 @@ function AchievementCard({ title, logo, logoAlt, placement }: AchievementCardPro
         <img src={logo} alt={logoAlt} className="achievement-card-logo" />
         <h4 className="achievement-card-title">{title}</h4>
         <span className="achievement-card-placement">{placement}</span>
+        {link && (
+          <a href={link} target="_blank" rel="noopener noreferrer" className="achievement-card-link btn-gradient">
+            View Project
+          </a>
+        )}
       </div>
     </div>
   );
@@ -31,12 +37,18 @@ function AchievementCard({ title, logo, logoAlt, placement }: AchievementCardPro
 
 export default function Achievements() {
   const achievements = [
-    
     {
-       title: "Hello Future Ascension Hackathon",
-       logo: "/hashgraph.png",
-       logoAlt: "Hedera Hashgraph",
-       placement: "1st Place - AI & Agents"
+      title: "ETHDenver 2026",
+      logo: "/ethdenver.png",
+      logoAlt: "ETHDenver",
+      placement: "2nd Place - On-Chain Automation",
+      link: "https://devfolio.co/projects/hive-protocol-8945"
+    },
+    {
+      title: "Hello Future Ascension Hackathon",
+      logo: "/hashgraph.png",
+      logoAlt: "Hedera Hashgraph",
+      placement: "1st Place - AI & Agents"
     },
     {
       title: "Hello Future Origins Hackathon",
@@ -73,6 +85,7 @@ export default function Achievements() {
               logo={achievement.logo}
               logoAlt={achievement.logoAlt}
               placement={achievement.placement}
+              link={achievement.link}
             />
           ))}
         </div>
