@@ -1,5 +1,5 @@
 "use client";
-import React from 'react';
+import React, { useState } from 'react';
 import { GlowingEffect } from './ui/glowing-effect';
 
 interface ProjectCardProps {
@@ -11,20 +11,57 @@ interface ProjectCardProps {
   link: string;
 }
 
-const MAILERLITE_FORM_ID = '38563918';
+// MailerLite form subscribe endpoint (from form Overview > HTML embed)
+const MAILERLITE_SUBSCRIBE_URL = 'https://assets.mailerlite.com/jsonp/2041408/forms/182145008070034819/subscribe';
 
 function NewsletterSignup() {
+  const [showSuccess, setShowSuccess] = useState(false);
+
+  const handleSubmit = () => {
+    // Form posts to hidden iframe - show success after brief delay
+    setTimeout(() => {
+      setShowSuccess(true);
+    }, 1500);
+  };
+
   return (
     <div className="newsletter-signup">
       <h3 className="newsletter-signup-title">Stay up to date on our projects</h3>
       <p className="newsletter-signup-subtitle">
         Get the latest updates delivered to your inbox.
       </p>
-      <div
-        className="ml-embedded"
-        data-form={MAILERLITE_FORM_ID}
-        style={{ minHeight: 120 }}
-      />
+      {showSuccess ? (
+        <p className="newsletter-signup-success">Thanks for subscribing! Check your inbox to confirm.</p>
+      ) : (
+        <>
+          <iframe
+            name="mailerlite-iframe"
+            title="MailerLite"
+            style={{ display: 'none' }}
+            tabIndex={-1}
+          />
+          <form
+            className="newsletter-signup-form"
+            action={MAILERLITE_SUBSCRIBE_URL}
+            method="POST"
+            target="mailerlite-iframe"
+            onSubmit={handleSubmit}
+          >
+            <input
+              type="email"
+              name="fields[email]"
+              placeholder="Enter your email"
+              required
+              className="newsletter-signup-input"
+            />
+            <input type="hidden" name="ml-submit" value="1" />
+            <input type="hidden" name="anticsrf" value="true" />
+            <button type="submit" className="btn-gradient newsletter-signup-btn">
+              Subscribe
+            </button>
+          </form>
+        </>
+      )}
     </div>
   );
 }
