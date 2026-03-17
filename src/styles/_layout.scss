@@ -276,62 +276,78 @@ section {
     margin: 0 0 1.5rem;
   }
 
-  .newsletter-signup-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    align-items: center;
-
-    @media (min-width: 640px) {
-      flex-direction: row;
-      justify-content: center;
+  /* MailerLite embedded form - override injected styles for dark theme */
+  .newsletter-signup {
+    .ml-form-embedContent {
+      margin-bottom: 1rem !important;
     }
-  }
-
-  .newsletter-signup-input {
-    width: 100%;
-    padding: 1rem 1.25rem;
-    font-family: var(--font-lexend);
-    font-size: 1rem;
-    color: #fff;
-    background: rgba(0, 0, 0, 0.5);
-    border: 1px solid #333;
-    border-radius: 8px;
-    outline: none;
-    transition: border-color 0.2s ease;
-
-    &::placeholder {
-      color: #666;
+    .ml-form-embedBody .ml-form-embedContent h4,
+    .ml-form-embedBody .ml-form-embedContent p {
+      display: none !important; /* We use our own title/subtitle above */
     }
-
-    &:focus {
-      border-color: #A949F6;
+    .ml-form-embedContainer,
+    .ml-subscribe-form {
+      width: 100% !important;
+      max-width: 100% !important;
     }
-
-    @media (min-width: 640px) {
-      width: 280px;
-      flex-shrink: 0;
+    .ml-form-embedWrapper {
+      background: transparent !important;
+      border: none !important;
+      width: 100% !important;
+      max-width: 100% !important;
     }
-  }
-
-  .newsletter-signup-btn {
-    flex-shrink: 0;
-    white-space: nowrap;
-  }
-
-  .newsletter-signup-success {
-    font-family: var(--font-lexend);
-    font-size: 1rem;
-    color: #22c55e;
-    margin: 0;
-  }
-
-  .newsletter-signup-error {
-    font-family: var(--font-lexend);
-    font-size: 0.9rem;
-    color: #ef4444;
-    margin: 0.5rem 0 0;
-    width: 100%;
+    .ml-form-embedContent h4,
+    .ml-form-successContent h4 {
+      color: #fff !important;
+      font-family: var(--font-lexend) !important;
+      font-size: 1.25rem !important;
+      margin: 0 0 0.5rem !important;
+    }
+    .ml-form-embedContent p,
+    .ml-form-successContent p,
+    .ml-form-embedContent label,
+    .ml-form-embedBody .ml-field-group label {
+      color: #8A919E !important;
+      font-family: var(--font-lexend) !important;
+      font-size: 0.95rem !important;
+    }
+    .ml-form-embedBody .ml-form-fieldRow input,
+    .ml-form-embedBody .ml-form-horizontalRow input,
+    .ml-form-embedBody input[type="email"],
+    .ml-form-embedBody input.form-control {
+      background: rgba(0, 0, 0, 0.5) !important;
+      color: #fff !important;
+      border: 1px solid #333 !important;
+      border-radius: 8px !important;
+      font-family: var(--font-lexend) !important;
+      padding: 1rem 1.25rem !important;
+      &::placeholder {
+        color: #666 !important;
+      }
+      &:focus {
+        border-color: #A949F6 !important;
+        outline: none !important;
+      }
+    }
+    .ml-form-embedSubmit button,
+    .ml-form-embedBody .ml-form-embedSubmit button,
+    .ml-button-horizontal button,
+    .ml-form-embedBody .ml-form-horizontalRow button {
+      background: linear-gradient(90deg, #A949F6 0%, #5788FB 100%) !important;
+      border: none !important;
+      color: #fff !important;
+      padding: 0.75rem 1.5rem !important;
+      border-radius: 8px !important;
+      font-family: var(--font-lexend) !important;
+      font-weight: 600 !important;
+      cursor: pointer !important;
+      &:hover {
+        opacity: 0.95 !important;
+      }
+    }
+    .ml-form-successContent p {
+      color: #22c55e !important;
+    }
   }
 }
 

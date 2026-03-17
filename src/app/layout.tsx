@@ -1,5 +1,6 @@
 import React from 'react';
 import type { Metadata } from "next";
+import Script from 'next/script';
 import { Poppins, VT323, Inria_Serif, Lexend } from "next/font/google";
 import '@/styles/globals.css';
 import '@/styles/main.scss';
@@ -75,6 +76,17 @@ export default function RootLayout({
       <body className={`${poppins.variable} ${inriaSerif.variable} ${vt323.variable} ${lexend.variable}`}>
         {children}
         <Analytics />
+        <Script
+          id="mailerlite-universal"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[]).push(arguments);},l=d.createElement(e),l.async=1,l.src=u,n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+              (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+              ml('account', '2041408');
+            `,
+          }}
+        />
       </body>
     </html>
   );
