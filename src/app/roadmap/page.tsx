@@ -94,6 +94,36 @@ const pastTimeline: TimelineItem[] = [
     completed: true
   },
   {
+    date: "January 2026",
+    title: "HBAR Agentic LYNX Minting",
+    description: "Users swap HBAR for LYNX at the current mint cost, then the agent mints in the backend in daily batches replenishing the buffer account.",
+    completed: true
+  },
+  {
+    date: "February 2026",
+    title: "LYNX List on KYRNG",
+    description: "LYNX payment integration (USDC or HBAR) instead of KYRNG token",
+    completed: true
+  },
+  {
+    date: "February 2026",
+    title: "LYNX APY Tracking",
+    description: "Graph the APY of LYNX over time",
+    completed: true
+  },
+  {
+    date: "February 2026",
+    title: "Performance Analytics",
+    description: "Compare LYNX performance vs individual composition assets, with future outlook based on historical data",
+    completed: true
+  },
+  {
+    date: "March 2026",
+    title: "DAO Controls",
+    description: "Implement governance controls for the LYNX ecosystem",
+    completed: true
+  },
+  {
     date: "January 2025",
     title: "Agentic Signers",
     description: "Built infrastructure - 1st Prize in AI & Agents Track (Hello Future Ascension)",
@@ -103,36 +133,6 @@ const pastTimeline: TimelineItem[] = [
 ];
 
 const futureTimeline: TimelineItem[] = [
-  {
-    date: "January 2026",
-    title: "HBAR Agentic LYNX Minting",
-    description: "Users swap HBAR for LYNX at the current mint cost, then the agent mints in the backend in daily batches replenishing the buffer account.",
-    completed: false
-  },
-  {
-    date: "February 2026",
-    title: "LYNX List on KYRNG",
-    description: "LYNX payment integration (USDC or HBAR) instead of KYRNG token",
-    completed: false
-  },
-  {
-    date: "February 2026",
-    title: "LYNX APY Tracking",
-    description: "Graph the APY of LYNX over time",
-    completed: false
-  },
-  {
-    date: "February 2026",
-    title: "Performance Analytics",
-    description: "Compare LYNX performance vs individual composition assets, with future outlook based on historical data",
-    completed: false
-  },
-  {
-    date: "March 2026",
-    title: "DAO Controls",
-    description: "Implement governance controls for the LYNX ecosystem",
-    completed: false
-  },
   {
     date: "March 2026",
     title: "DOVU Integration",
